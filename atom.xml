@@ -23,15 +23,13 @@
     <published>2022-01-15T13:09:37.000Z</published>
     <updated>2022-01-16T03:19:26.483Z</updated>
     
-    <content type="html"><![CDATA[<p>这里测试发布一篇hexo博文部署到github上。</p><p><a href="http://www.wuglu.com/">www.wuglu.com</a> 伟哥自留地</p><p>20220115</p>]]></content>
+    <content type="html"><![CDATA[<p>这里测试发布一篇hexo博文部署到github上。</p><p><a class="link"   href="http://www.wuglu.com/" >www.wuglu.com<i class="fas fa-external-link-alt"></i></a> 伟哥自留地</p><p>20220115</p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;这里测试发布一篇hexo博文部署到github上。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.wuglu.com/&quot;&gt;www.wuglu.com&lt;/a&gt; 伟哥自留地&lt;/p&gt;
-&lt;p&gt;20220115&lt;/p&gt;
-</summary>
+&lt;p&gt;&lt;a class=&quot;link&quot;   href=&quot;http://www.wuglu.com/&quot; &gt;www.wuglu.com&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a</summary>
       
     
     
