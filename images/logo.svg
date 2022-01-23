@@ -1,41 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1417" height="1417" viewBox="0 0 1417 1417">
-  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""/>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
-    <style>
-      .cls-1 {
-        fill: #06c;
-        fill-rule: evenodd;
-      }
-    </style>
-  </defs>
-  <path id="rectangular" class="cls-1" d="M170.35,170.525h359.1V1254.47H170.35V170.525Z"/>
-  <path id="triangle-down" class="cls-1" d="M888.55,1254.47h359.1L888.55,886.825V1254.47Z"/>
-  <path id="triangle-up" class="cls-1" d="M888.55,170.525h359.1l-359.1,359.1v-359.1Z"/>
+<svg width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="322" width="322" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(11.706988103975341,0,0,9.62502859684903,-3623.13433476789,-1689.7592932596488) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="209.342752" x="342.756257" stroke-width="0" fill="#f40c2f">伟</text>
+  <text stroke="#000" transform="matrix(14.044446704930348,0,0,4.887473506590784,-1031.5192756707427,-635.9581225047139) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="173.161639" x="73.428797" stroke-width="0" fill="#f40c2f">W</text>
+ </g>
 </svg>
