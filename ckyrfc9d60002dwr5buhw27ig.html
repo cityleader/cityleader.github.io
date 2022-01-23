@@ -9,7 +9,7 @@
     
     <title>
         
-            分类: 测试 |
+            测试一篇带图片博文 |
         
         伟哥自留地
     </title>
@@ -81,7 +81,7 @@
                         </li>
                     
                         <li class="menu-item">
-                            <a class="active"
+                            <a class=""
                                href="/categories"
                             >
                                 分类
@@ -128,7 +128,7 @@
                 </li>
             
                 <li class="drawer-menu-item flex-center">
-                    <a class="active"
+                    <a class=""
                        href="/categories">分类</a>
                 </li>
             
@@ -153,56 +153,208 @@
 
                 
                     <div class="fade-in-down-animation">
-    <div class="category-container">
-        <div class="category-name">
-            <i class="fas fa-folder"></i>&nbsp;测试
+    <div class="article-content-container">
+
+        <div class="article-title">
+            <span class="title-hover-animation">测试一篇带图片博文</span>
         </div>
-        <div class="category-post-list">
-            
-<div class="archive-list-container">
+
+        
+            <div class="article-header">
+                <div class="avatar">
+                    <img src="/images/avatar.svg">
+                </div>
+                <div class="info">
+                    <div class="author">
+                        <span class="name">伟哥</span>
+                        
+                            <span class="author-label">Lv1</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fas fa-edit"></i>&nbsp;
+        <span class="pc">2022-01-23 21:06:04</span>
+        <span class="mobile">2022-01-23 21:06</span>
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2022</span>
-                <span class="archive-year-post-count">[3]</span>
-            </div>
-            <ul class="article-list">
+    
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/ckyrf923i00056kr58h0bfbbz.html"
-                        >测试一篇带图片博文</a>
-                        <span class="article-date">01-23</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/ckyrf923c00016kr500i8a1gl.html"
-                        >写一篇hexo博客</a>
-                        <span class="article-date">01-15</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/ckyrf923f00026kr552m521ze.html"
-                        >MD文件真MD</a>
-                        <span class="article-date">01-15</span>
+                    <li>
+                        <a href="/tags/%E6%B5%8B%E8%AF%95/">测试</a>&nbsp;
                     </li>
                 
             </ul>
-        </section>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>131 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fas fa-clock"></i>&nbsp;<span>1 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
     
 </div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        <div class="article-content markdown-body">
+            <p>我这里测试一篇hexo带图片博文部署于github：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/cityleader/tu/photo/office.jpg" alt="office"></p>
+<p>捎带测试一下代码高亮：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*添加按钮开始*/</span></span><br><span class="line">function toa($atts, $<span class="attribute">content</span>=null)&#123;</span><br><span class="line"> return &#x27;&lt;<span class="selector-tag">div</span> id=&quot;wenzi&quot;&gt;&#x27;.$<span class="attribute">content</span>.&#x27;&lt;/<span class="selector-tag">div</span>&gt;&#x27;;</span><br><span class="line">&#125;</span><br><span class="line">add_shortcode(&#x27;wenzi&#x27;,&#x27;toa&#x27;);</span><br><span class="line"></span><br><span class="line"> add_action(&#x27;after_wp_tiny_mce&#x27;, &#x27;bolo_after_wp_tiny_mce&#x27;);</span><br><span class="line"> function bolo_after_wp_tiny_mce($mce_settings) &#123;</span><br><span class="line"> ?&gt;</span><br><span class="line"> &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line"> QTags<span class="selector-class">.addButton</span>( &#x27;wenzi&#x27;, &#x27;自定义段落&#x27;, &#x27;&lt;<span class="selector-tag">div</span> class=&quot;wenzi&quot;&gt;输入文字段落&lt;/<span class="selector-tag">div</span>&gt;&#x27;, &quot;&quot; );</span><br><span class="line"></span><br><span class="line"> function bolo_QTnextpage_arg1() &#123;</span><br><span class="line"> &#125;</span><br><span class="line"> &lt;/script&gt;</span><br><span class="line"> &lt;?php</span><br><span class="line"> &#125;</span><br><span class="line"><span class="comment">/*添加按钮结束*/</span></span><br></pre></td></tr></table></figure>
+
 
         </div>
+
+        
+            <div class="post-copyright-info">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li>本文标题：测试一篇带图片博文</li>
+        <li>本文作者：伟哥</li>
+        <li>创建时间：2022-01-23 21:06:04</li>
+        <li>
+            本文链接：https://weige.gq/ckyrfc9d60002dwr5buhw27ig.html
+        </li>
+        <li>
+            版权声明：本博客所有文章除特别声明外，均采用 <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">BY-NC-SA</a> 许可协议。转载请注明出处！
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/%E6%B5%8B%E8%AF%95/">#测试</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+            <div class="article-nav">
+                
+                
+                    <div class="article-next">
+                        <a class="next"
+                           rel="next"
+                           href="/ckyrfc9db0005dwr57m3k51r8.html"
+                        >
+                            <span class="title flex-center">
+                                <span class="post-nav-title-item">写一篇hexo博客</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex-center">
+                              <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+        
+            <div class="comment-container">
+                <div class="comments-container">
+    <div id="comment-anchor"></div>
+    <div class="comment-area-title">
+        <i class="fas fa-comments">&nbsp;评论</i>
     </div>
-    <div class="category-paginator">
-        <div class="paginator">
     
 
+        
+            
+    <div class="valine-container">
+        <script data-pjax
+                src="//cdn.jsdelivr.net/npm/valine@latest/dist/Valine.min.js"></script>
+        <div id="vcomments"></div>
+        <script data-pjax>
+            function loadValine() {
+                new Valine({
+                    el: '#vcomments',
+                    appId: 'hpyWU0xeBv69HjAppUJVPjz8-gzGzoHsz',
+                    appKey: 'Td3SWqzwzInyGft1Q5j0a684',
+                    meta: ['nick', 'mail', 'link'],
+                    avatar: 'wavatar',
+                    enableQQ: true,
+                    placeholder: '想跟伟哥说点啥？',
+                    lang: 'zh-CN'.toLowerCase()
+                });
+
+                function getAuthor(language) {
+                    switch (language) {
+                        case 'en':
+                            return 'Author';
+                        case 'zh-CN':
+                            return '博主';
+                        default:
+                            return 'Master';
+                    }
+                }
+
+                // Add "Author" identify
+                const getValineDomTimer = setInterval(() => {
+                    const vcards = document.querySelectorAll('#vcomments .vcards .vcard');
+                    if (vcards.length > 0) {
+                        let author = '伟哥';
+
+                        if (author) {
+                            for (let vcard of vcards) {
+                                const vnick_dom = vcard.querySelector('.vhead .vnick');
+                                const vnick = vnick_dom.innerHTML;
+                                if (vnick === author) {
+                                    vnick_dom.innerHTML = `${vnick} <span class="author">${getAuthor(KEEP.hexo_config.language)}</span>`
+                                }
+                            }
+                        }
+                        clearInterval(getValineDomTimer);
+                    } else {
+                        clearInterval(getValineDomTimer);
+                    }
+                }, 2000);
+            }
+
+            if ('true') {
+                const loadValineTimeout = setTimeout(() => {
+                    loadValine();
+                    clearTimeout(loadValineTimeout);
+                }, 1000);
+            } else {
+                window.addEventListener('DOMContentLoaded', loadValine);
+            }
+        </script>
+    </div>
+
+
+
+        
     
 </div>
 
+            </div>
+        
     </div>
 </div>
 
@@ -246,6 +398,27 @@
         </div>
     </div>
 
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="tools-item page-aside-toggle">
+                <i class="fas fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fas fa-comment"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
     
 
     <div class="right-bottom-side-tools">
@@ -300,6 +473,14 @@
 
     </div>
 
+    
+        <aside class="page-aside">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        
+    </div>
+</div>
+        </aside>
     
 
     <div class="image-viewer-container">
@@ -369,6 +550,14 @@
 
 
 <div class="post-scripts pjax">
+    
+        
+<script src="/js/left-side-toggle.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+<script src="/js/toc.js"></script>
+
     
 </div>
 
