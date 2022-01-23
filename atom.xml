@@ -6,7 +6,7 @@
   <link href="https://cityleader.github.io/atom.xml" rel="self"/>
   
   <link href="https://cityleader.github.io/"/>
-  <updated>2022-01-23T14:18:12.007Z</updated>
+  <updated>2022-01-23T15:53:55.657Z</updated>
   <id>https://cityleader.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>测试一篇带图片博文</title>
-    <link href="https://cityleader.github.io/ckyrfc9d60002dwr5buhw27ig.html"/>
-    <id>https://cityleader.github.io/ckyrfc9d60002dwr5buhw27ig.html</id>
+    <link href="https://cityleader.github.io/post-pichexo-blog.html"/>
+    <id>https://cityleader.github.io/post-pichexo-blog.html</id>
     <published>2022-01-23T13:06:04.000Z</published>
-    <updated>2022-01-23T14:18:12.007Z</updated>
+    <updated>2022-01-23T15:53:55.657Z</updated>
     
     <content type="html"><![CDATA[<p>我这里测试一篇hexo带图片博文部署于github：</p><p><img src="https://cdn.jsdelivr.net/gh/cityleader/tu/photo/office.jpg" alt="office"></p><p>捎带测试一下代码高亮：</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*添加按钮开始*/</span></span><br><span class="line">function toa($atts, $<span class="attribute">content</span>=null)&#123;</span><br><span class="line"> return &#x27;&lt;<span class="selector-tag">div</span> id=&quot;wenzi&quot;&gt;&#x27;.$<span class="attribute">content</span>.&#x27;&lt;/<span class="selector-tag">div</span>&gt;&#x27;;</span><br><span class="line">&#125;</span><br><span class="line">add_shortcode(&#x27;wenzi&#x27;,&#x27;toa&#x27;);</span><br><span class="line"></span><br><span class="line"> add_action(&#x27;after_wp_tiny_mce&#x27;, &#x27;bolo_after_wp_tiny_mce&#x27;);</span><br><span class="line"> function bolo_after_wp_tiny_mce($mce_settings) &#123;</span><br><span class="line"> ?&gt;</span><br><span class="line"> &lt;script type=&quot;text/javascript&quot;&gt;</span><br><span class="line"> QTags<span class="selector-class">.addButton</span>( &#x27;wenzi&#x27;, &#x27;自定义段落&#x27;, &#x27;&lt;<span class="selector-tag">div</span> class=&quot;wenzi&quot;&gt;输入文字段落&lt;/<span class="selector-tag">div</span>&gt;&#x27;, &quot;&quot; );</span><br><span class="line"></span><br><span class="line"> function bolo_QTnextpage_arg1() &#123;</span><br><span class="line"> &#125;</span><br><span class="line"> &lt;/script&gt;</span><br><span class="line"> &lt;?php</span><br><span class="line"> &#125;</span><br><span class="line"><span class="comment">/*添加按钮结束*/</span></span><br></pre></td></tr></table></figure>]]></content>
     
@@ -35,6 +35,8 @@
     
     
     
+    <category term="测试" scheme="https://cityleader.github.io/fenlei/ceshi/"/>
+    
     
     <category term="测试" scheme="https://cityleader.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
     
@@ -42,10 +44,10 @@
   
   <entry>
     <title>写一篇hexo博客</title>
-    <link href="https://cityleader.github.io/ckyrfc9db0005dwr57m3k51r8.html"/>
-    <id>https://cityleader.github.io/ckyrfc9db0005dwr57m3k51r8.html</id>
+    <link href="https://cityleader.github.io/post-new-hexo-blog.html"/>
+    <id>https://cityleader.github.io/post-new-hexo-blog.html</id>
     <published>2022-01-15T13:09:37.000Z</published>
-    <updated>2022-01-16T03:19:26.483Z</updated>
+    <updated>2022-01-23T15:53:28.698Z</updated>
     
     <content type="html"><![CDATA[<p>这里测试发布一篇hexo博文部署到github上。</p><p><a class="link"   href="http://www.wuglu.com/" >www.wuglu.com<i class="fas fa-external-link-alt"></i></a> 伟哥自留地</p><p>20220115</p>]]></content>
     
@@ -58,6 +60,8 @@
     
     
     
+    <category term="测试" scheme="https://cityleader.github.io/fenlei/ceshi/"/>
+    
     
     <category term="博客" scheme="https://cityleader.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
     
@@ -65,10 +69,10 @@
   
   <entry>
     <title>MD文件真MD</title>
-    <link href="https://cityleader.github.io/ckyrfc9d10000dwr556rz2jxz.html"/>
-    <id>https://cityleader.github.io/ckyrfc9d10000dwr556rz2jxz.html</id>
+    <link href="https://cityleader.github.io/md-is-true-md.html"/>
+    <id>https://cityleader.github.io/md-is-true-md.html</id>
     <published>2022-01-15T10:35:54.000Z</published>
-    <updated>2022-01-16T03:18:39.836Z</updated>
+    <updated>2022-01-23T15:53:04.911Z</updated>
     
     <content type="html"><![CDATA[<p>MD文件真的是MD，写起来要这么麻烦！</p>]]></content>
     
@@ -80,6 +84,8 @@
       
     
     
+    
+    <category term="测试" scheme="https://cityleader.github.io/fenlei/ceshi/"/>
     
     
     <category term="MD" scheme="https://cityleader.github.io/tags/MD/"/>
